@@ -82,30 +82,27 @@ export default function Home() {
           : "bg-gradient-to-b from-white to-gray-100 text-gray-900"
       }`}
     >
-
       <Head>
         <title>NextGen | Modern Solutions</title>
-        <meta
-          name="description"
-          content="Arch-home"
-        />
+        <meta name="description" content="Arch-home" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <WhatsAppButton
-        phoneNumber="+971566636021" 
-        message="Hello, I’m interested in your services!" 
-      
+        phoneNumber="+971566636021"
+        message="Hello, I’m interested in your services!"
       />
 
-  
-<Header heme={theme} language={language} ChangeLanguage={toggleLanguage} ChangeTheme={toggleTheme} />
+      <Header
+        theme={theme}
+        language={language}
+        ChangeLanguage={toggleLanguage}
+        ChangeTheme={toggleTheme}
+      />
       <main>
         {/* Hero Section */}
 
-
-        
-{/* 
+        {/* 
         <section className="container mx-auto px-4 py-20 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -161,8 +158,6 @@ export default function Home() {
           </div>
         </section> */}
 
-
-
         {/* About Section */}
 
         <About theme={theme} language={language} />
@@ -173,16 +168,13 @@ export default function Home() {
 
         {/* Services Section */}
 
-      <Services theme={theme} language={language} />
-
+        <Services theme={theme} language={language} />
 
         {/* Clients Section */}
 
         <Clients theme={theme} language={language} />
 
         {/* Pricing Section */}
-
-  
 
         <Contact theme={theme} language={language} />
       </main>

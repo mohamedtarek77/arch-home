@@ -21,7 +21,8 @@ const Footer = ({ theme, language }) => {
         style={{ width: "100%", maxWidth: "1000px", margin: "0 auto" }}
       >
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.1196641602214!2d55.50311447489707!3d25.40080472342464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5f7c2542a28a7%3A0xc8c830aab09bc591!2sNesto%20Hypermarket!5e0!3m2!1sen!2sae!4v1743757351096!5m2!1sen!2sae"
+          // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.1196641602214!2d55.50311447489707!3d25.40080472342464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5f7c2542a28a7%3A0xc8c830aab09bc591!2sNesto%20Hypermarket!5e0!3m2!1sen!2sae!4v1743757351096!5m2!1sen!2sae"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.486362992282!2d55.36793602510655!3d25.287858428023526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5c66a0b1662b%3A0x6d3dcadaa24a354b!2z2KjYsdisINmF2Yo!5e0!3m2!1sar!2sae!4v1744056872332!5m2!1sar!2sae" 
           width="100%"
           height="450"
           style={{ border: 0 }}

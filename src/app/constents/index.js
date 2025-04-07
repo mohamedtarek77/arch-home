@@ -11,6 +11,7 @@ export const translations = {
       clients: "Our Clients",
       contact: "Contact Us",
       getStarted: "Get Started",
+ 
     },
     hero: {
       title: "Elevate Your Business with Next-Gen Solutions",
@@ -69,49 +70,50 @@ guaranteed works. `,
           title: "Carpentry works",
           images: [
             "/images/Carpentry-works/01.PNG",
-            "/images/Paint/01.PNG",
-            "/images/Carpentry-works/01.PNG",
-            "/images/Carpentry-works/01.PNG",
+            "/images/Carpentry-works/02.PNG",
+            "/images/Carpentry-works/03.PNG",
+            "/images/Carpentry-works/04.PNG",
           ],
         },
         {
           title: "Decoration Paint",
           images: [
             "/images/Paint/01.PNG",
-            "/images/Paint/01.PNG",
-            "/images/Paint/01.PNG",
+       
           ],
         },
         {
           title: "Gypsum Works",
           images: [
             "/images/Gypsum/01.PNG",
-            "/images/Gypsum/01.PNG",
-            "/images/Gypsum/01.PNG",
+            "/images/Gypsum/02.jpeg",
+            "/images/Gypsum/03.jpeg",
+            "/images/Gypsum/04.jpeg",
           ],
         },
         {
           title: "Electromechanical works",
           images: [
             "/images/Electromechanical/01.PNG",
-            "/images/Electromechanical/01.PNG",
-            "/images/Electromechanical/01.PNG",
+            "/images/Electromechanical/02.png",
+            "/images/Electromechanical/03.png",
+            "/images/Electromechanical/04.png",
           ],
+
         },
         {
           title: "Tiles works",
           images: [
             "/images/Tiles/01.PNG",
-            "/images/Tiles/01.PNG",
-            "/images/Tiles/01.PNG",
+        
           ],
         },
         {
           title: "Landscaping works",
           images: [
             "/images/Landscaping/01.PNG",
-            "/images/Landscaping/01.PNG",
-            "/images/Landscaping/01.PNG",
+            "/images/Landscaping/02.PNG",
+        
           ],
         },
       ],
@@ -206,6 +208,7 @@ guaranteed works. `,
       clients: "عملاءنا",
       contact: "اتصل بنا",
       getStarted: "ابداء الآن",
+
     },
     hero: {
       title: "ارتقِ بعملك مع حلول الجيل القادم",
@@ -264,48 +267,51 @@ guaranteed works. `,
           title: "أعمال النجارة",
           images: [
             "/images/Carpentry-works/01.PNG",
-            "/images/Carpentry-works/01.PNG",
-            "/images/Carpentry-works/01.PNG",
+            "/images/Carpentry-works/02.PNG",
+            "/images/Carpentry-works/03.PNG",
+            "/images/Carpentry-works/04.PNG",
           ],
         },
         {
           title: "دهان الديكور",
           images: [
             "/images/Paint/01.PNG",
-            "/images/Paint/01.PNG",
-            "/images/Paint/01.PNG",
+       
           ],
         },
         {
           title: "أعمال الجبس",
-          images: [
+
+       images: [
             "/images/Gypsum/01.PNG",
-            "/images/Gypsum/01.PNG",
-            "/images/Gypsum/01.PNG",
+            "/images/Gypsum/02.jpeg",
+            "/images/Gypsum/03.jpeg",
+            "/images/Gypsum/04.jpeg",
           ],
+
         },
         {
           title: "الأعمال الكهروميكانيكية",
           images: [
             "/images/Electromechanical/01.PNG",
-            "/images/Electromechanical/01.PNG",
-            "/images/Electromechanical/01.PNG",
+            "/images/Electromechanical/02.png",
+            "/images/Electromechanical/03.png",
+            "/images/Electromechanical/04.png",
           ],
         },
         {
           title: "أعمال البلاط",
           images: [
             "/images/Tiles/01.PNG",
-            "/images/Tiles/01.PNG",
-            "/images/Tiles/01.PNG",
+        
           ],
         },
         {
           title: "أعمال تنسيق الحدائق",
           images: [
             "/images/Landscaping/01.PNG",
-            "/images/Landscaping/01.PNG",
-            "/images/Landscaping/01.PNG",
+            "/images/Landscaping/02.PNG",
+        
           ],
         },
       ],
