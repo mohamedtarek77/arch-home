@@ -73,12 +73,16 @@ guaranteed works. `,
             "/images/Carpentry-works/02.PNG",
             "/images/Carpentry-works/03.PNG",
             "/images/Carpentry-works/04.PNG",
+            "/images/Carpentry-works/05.PNG",
           ],
         },
         {
           title: "Decoration Paint",
           images: [
             "/images/Paint/01.PNG",
+            "/images/Paint/02.PNG",
+            "/images/Paint/03.PNG",
+            "/images/Paint/04.PNG",
        
           ],
         },
@@ -88,16 +92,18 @@ guaranteed works. `,
             "/images/Gypsum/01.PNG",
             "/images/Gypsum/02.jpeg",
             "/images/Gypsum/03.jpeg",
-            "/images/Gypsum/04.jpeg",
+            "/images/Gypsum/04.PNG",
+            "/images/Gypsum/05.PNG",
+
           ],
         },
         {
           title: "Electromechanical works",
           images: [
             "/images/Electromechanical/01.PNG",
-            "/images/Electromechanical/02.png",
-            "/images/Electromechanical/03.png",
-            "/images/Electromechanical/04.png",
+            "/images/Electromechanical/02.PNG",
+            "/images/Electromechanical/03.PNG",
+            "/images/Electromechanical/04.PNG",
           ],
 
         },
@@ -105,6 +111,11 @@ guaranteed works. `,
           title: "Tiles works",
           images: [
             "/images/Tiles/01.PNG",
+            "/images/Tiles/02.PNG",
+            "/images/Tiles/03.PNG",
+            "/images/Tiles/04.PNG",
+            "/images/Tiles/05.PNG",
+            "/images/Tiles/06.PNG",
         
           ],
         },
@@ -113,6 +124,8 @@ guaranteed works. `,
           images: [
             "/images/Landscaping/01.PNG",
             "/images/Landscaping/02.PNG",
+            "/images/Landscaping/03.PNG",
+            "/images/Landscaping/04.PNG",
         
           ],
         },
@@ -121,7 +134,6 @@ guaranteed works. `,
     },
     clients: {
       title: "Our Clients",
-      subtitle: "هذه بعض الخدمات التي نقدمها",
       items: [
         {
           image: "/images/Clients/Al-Borg.png",
@@ -270,23 +282,29 @@ guaranteed works. `,
             "/images/Carpentry-works/02.PNG",
             "/images/Carpentry-works/03.PNG",
             "/images/Carpentry-works/04.PNG",
+            "/images/Carpentry-works/05.PNG",
           ],
         },
         {
           title: "دهان الديكور",
           images: [
             "/images/Paint/01.PNG",
+            "/images/Paint/02.PNG",
+            "/images/Paint/03.PNG",
+            "/images/Paint/04.PNG",
        
           ],
         },
         {
           title: "أعمال الجبس",
 
-       images: [
+          images: [
             "/images/Gypsum/01.PNG",
             "/images/Gypsum/02.jpeg",
             "/images/Gypsum/03.jpeg",
-            "/images/Gypsum/04.jpeg",
+            "/images/Gypsum/04.PNG",
+            "/images/Gypsum/05.PNG",
+
           ],
 
         },
@@ -294,15 +312,20 @@ guaranteed works. `,
           title: "الأعمال الكهروميكانيكية",
           images: [
             "/images/Electromechanical/01.PNG",
-            "/images/Electromechanical/02.png",
-            "/images/Electromechanical/03.png",
-            "/images/Electromechanical/04.png",
+            "/images/Electromechanical/02.PNG",
+            "/images/Electromechanical/03.PNG",
+            "/images/Electromechanical/04.PNG",
           ],
         },
         {
           title: "أعمال البلاط",
           images: [
             "/images/Tiles/01.PNG",
+            "/images/Tiles/02.PNG",
+            "/images/Tiles/03.PNG",
+            "/images/Tiles/04.PNG",
+            "/images/Tiles/05.PNG",
+            "/images/Tiles/06.PNG",
         
           ],
         },
@@ -311,6 +334,8 @@ guaranteed works. `,
           images: [
             "/images/Landscaping/01.PNG",
             "/images/Landscaping/02.PNG",
+            "/images/Landscaping/03.PNG",
+            "/images/Landscaping/04.PNG",
         
           ],
         },
@@ -320,7 +345,6 @@ guaranteed works. `,
 
     clients: {
       title: "عملاءنا",
-      subtitle: "هذه بعض الخدمات التي نقدمها",
       items: [
         {
           image: "/images/Clients/Al-Borg.png",

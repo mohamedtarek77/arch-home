@@ -48,7 +48,7 @@ const Mission = ({ theme, language }) => {
         id="mission"
         className={`py-20 ${theme === "dark" ? "bg-gray-800" : "bg-gray-50"}`}
       >
-          <div className="container flex flex-col sm:flex-row  mx-auto px-4 gap-5 w-3/4">
+          <div className="container flex  flex-col-reverse sm:flex-row  mx-auto px-4 gap-5 w-3/4">
           <div className="rounded-4xl overflow-hidden">
             <Image
               src={t.mission.image}

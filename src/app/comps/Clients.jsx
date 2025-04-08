@@ -20,19 +20,19 @@ const Clients = ({ theme, language }) => {
   const getCarouselDuration = () => {
     if (typeof window !== 'undefined') {
       // Slower on mobile for better readability
-      if (window.innerWidth < 640) return 40;
+      if (window.innerWidth < 640) return 20;
       // Medium speed on tablets
-      if (window.innerWidth < 1024) return 35;
+      if (window.innerWidth < 1024) return 15;
       // Faster on desktop
-      return 30;
+      return 10;
     }
-    return 30; // Default
+    return 10; // Default
   };
 
   // Define animation properties based on language direction
   const animationProps = isRTL
     ? {
-        animate: { x: ['-33.333%', '0%'] }, // Left to right for Arabic
+        animate: { x: ['33.333%', '0%'] }, // left to Right for Arabic (same as LTR)
         transition: {
           x: {
             repeat: Infinity,
@@ -68,7 +68,7 @@ const Clients = ({ theme, language }) => {
         </div>
 
         {/* Responsive carousel */}
-        <div className="mb-8 sm:mb-12 relative">
+        <div className="mb-8 sm:mb-12 overflow-hidden relative">
           <motion.div
             className="flex items-center"
             animate={animationProps.animate}

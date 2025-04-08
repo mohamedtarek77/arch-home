@@ -22,7 +22,7 @@ const Footer = ({ theme, language }) => {
       >
         <iframe
           // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.1196641602214!2d55.50311447489707!3d25.40080472342464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5f7c2542a28a7%3A0xc8c830aab09bc591!2sNesto%20Hypermarket!5e0!3m2!1sen!2sae!4v1743757351096!5m2!1sen!2sae"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.486362992282!2d55.36793602510655!3d25.287858428023526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5c66a0b1662b%3A0x6d3dcadaa24a354b!2z2KjYsdisINmF2Yo!5e0!3m2!1sar!2sae!4v1744056872332!5m2!1sar!2sae" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.486362992282!2d55.36793602510655!3d25.287858428023526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5c66a0b1662b%3A0x6d3dcadaa24a354b!2z2KjYsdisINmF2Yo!5e0!3m2!1sar!2sae!4v1744056872332!5m2!1sar!2sae"
           width="100%"
           height="450"
           style={{ border: 0 }}
@@ -32,17 +32,17 @@ const Footer = ({ theme, language }) => {
           title="Nesto Hypermarket Map"
         ></iframe>
       </div>
-      <div className="bg-gray-900 text-white py-12">
+      <div className="bg-gray-900 text-white py-6">
         <div className="container mx-auto px-4">
           {/* <div className="grid md:grid-cols-4 gap-8"> */}
-          
-          <div className="flex flex-row justify-around  ">
-            {/* <div>
+
+          {/* <div className="flex flex-row justify-around  ">
+            <div>
               <h3 className="text-xl font-semibold mb-4">Arch Home</h3>
               <p className="text-gray-400">{t.footer.description}</p>
-            </div> */}
+            </div>
 
-            {/* <div>
+            <div>
               <h4 className="text-lg font-medium mb-4">
                 {t.footer.quickLinks}
               </h4>
@@ -80,8 +80,8 @@ const Footer = ({ theme, language }) => {
                   </a>
                 </li>
               </ul>
-            </div> */}
-{/* 
+            </div>
+
             <div>
               <h4 className="text-lg font-medium mb-4">{t.footer.legal}</h4>
               <ul className="space-y-2">
@@ -110,9 +110,9 @@ const Footer = ({ theme, language }) => {
                   </a>
                 </li>
               </ul>
-            </div> */}
+            </div>
 
-            {/* <div>
+            <div>
               <h4 className="text-lg font-medium mb-4">{t.footer.connect}</h4>
               <div className="flex space-x-4">
                 <a
@@ -162,10 +162,12 @@ const Footer = ({ theme, language }) => {
                   </svg>
                 </a>
               </div>
-            </div> */}
-          </div>
+            </div>
+          </div> */}
 
-          <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
+          {/* <div className="mt-6 pt-4 border-t border-gray-800 text-center text-gray-400"> */}
+          {/* <div className="text-center text-gray-400"> */}
+          <div className=" pt-4 border-t border-gray-800 text-center text-gray-400">
             <p>
               &copy; {new Date().getFullYear()} Arch-Home. {t.footer.rights}
             </p>
