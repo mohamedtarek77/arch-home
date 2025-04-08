@@ -20,13 +20,13 @@ const Clients = ({ theme, language }) => {
   const getCarouselDuration = () => {
     if (typeof window !== 'undefined') {
       // Slower on mobile for better readability
-      if (window.innerWidth < 640) return 20;
+      if (window.innerWidth < 640) return 25;
       // Medium speed on tablets
-      if (window.innerWidth < 1024) return 15;
+      if (window.innerWidth < 1024) return 20;
       // Faster on desktop
-      return 10;
+      return 15;
     }
-    return 10; // Default
+    return 15; // Default
   };
 
   // Define animation properties based on language direction

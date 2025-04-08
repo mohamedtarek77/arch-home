@@ -19,7 +19,7 @@ const Services = ({ theme, language }) => {
     for (let i = 0; i < totalItems; i++) {
       const timer = setTimeout(() => {
         setVisibleItems((prev) => [...prev, i]);
-      }, 1000 * i);
+      }, 600 * i);
 
       timers.push(timer);
     }

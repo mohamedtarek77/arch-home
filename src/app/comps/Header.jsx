@@ -14,7 +14,7 @@ const Header = ({ theme, language, ChangeLanguage, ChangeTheme }) => {
 
   return (
     <header
-      className={`container mx-auto px-4 py-3 md:py-4 lg:py-6 ${
+      className={`container font-bold mx-auto px-4 py-3 md:py-4 lg:py-6 ${
         theme === "dark"
           ? "border-b border-gray-700"
           : "border-b border-gray-200"
