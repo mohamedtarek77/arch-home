@@ -211,6 +211,10 @@ guaranteed works. `,
       en: "English",
       ar: "العربية",
     },
+    whatsappBtn: {
+      message: `Hello, I’m interested in your services!`,
+      title:"Select Contact"
+    }
   },
   ar: {
     nav: {
@@ -401,5 +405,9 @@ guaranteed works. `,
       en: "English",
       ar: "العربية",
     },
+    whatsappBtn: {
+      message: `مرحبا، انا مهتم بخدماتكم`,
+      title:"اختر جهه الاتصال"
+    }
   },
 };

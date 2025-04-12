@@ -88,10 +88,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <WhatsAppButton
+      {/* <WhatsAppButton
         phoneNumber="+971566636021"
         message="Hello, I’m interested in your services!"
-      />
+      /> */}
+
+<WhatsAppButton 
+  phoneNumbers={["+971566636021", "+971503381668"]} 
+  theme={theme}
+  language={language}
+  // message="Hello, I'm interested in your product!" 
+  
+/>
 
       <Header
         theme={theme}
