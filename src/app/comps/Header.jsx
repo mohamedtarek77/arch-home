@@ -28,17 +28,23 @@ const Header = ({ theme, language, ChangeLanguage, ChangeTheme }) => {
             <Image
             src={"/images/logo-mo-black.png"}
             alt="Company Logo"
-              width={160}
-              height={160}
-              className="w-32"
+              // width={160}
+              // height={160}
+              //className="w-32"
+
+              width={200}
+              height={200}
+              className="w-40"
             />
           ) : (
             <Image
             src={"/images/logo-mo.png"}
             alt="Company Logo"
-              width={160}
-              height={160}
-              className="w-32"
+              // width={160}
+              // height={160}
+              width={200}
+              height={200}
+              className="w-40"
             />
           )}
         </div>
@@ -137,6 +143,7 @@ const Header = ({ theme, language, ChangeLanguage, ChangeTheme }) => {
       </div>
 
       {/* Desktop navigation */}
+      {/* <nav className="hidden md:flex items-center justify-between"> */}
       <nav className="hidden md:flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
@@ -144,18 +151,22 @@ const Header = ({ theme, language, ChangeLanguage, ChangeTheme }) => {
             <Image
               src={"/images/logo-mo-black.png"}
               alt="Company Logo"
-              width={160}
-              height={160}
-              className="w-40 lg:w-48"
+              width={200}
+              height={200}
+              className="w-48 lg:w-56"
             />
           ) : (
             <Image
               // src={t.nav.logos[1]}
               src={"/images/logo-mo.png"}
               alt="Company Logo"
-              width={160}
-              height={160}
-              className="w-40 lg:w-48"
+
+              width={200}
+              height={200}
+              className="w-48 lg:w-56"
+              // width={160}
+              // height={160}
+              // className="w-40 lg:w-48"
             />
           )}
         </div>
